@@ -1,8 +1,8 @@
 #Code book
 Dataset contains average of each variable for each activity and each subject. 
 
-Data set collumns:
--  subject: ID of the person who tooked part in study   
+Data set columns:
+-  subject: ID of the person who took part in study   
 -  activity: activity code:
     *   1 WALKING
     *   2 WALKING_UPSTAIRS
@@ -22,7 +22,7 @@ Also the magnitude of these three-dimensional signals were calculated using the 
 -   t\_body\_gyro\_mag
 -   t\_body\_gyro\_jerk\_mag 
 
-Finally a Fast Fourier Transform (FFT) was applied to some of these signals. Prefix 'f' usedto indicate frequency domain signals.
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals. Prefix 'f' used to indicate frequency domain signals.
 -   f\_body\_acc:xyz
 -   f\_body\_acc\_jerk:xyz
 -   f\_body\_gyro:xyz
