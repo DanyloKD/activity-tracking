@@ -18,7 +18,7 @@ Required dataset for these course is here:
 Archive should be extracted in the same folder where _run\_analysis.R_ script is situated.
 Working directory has to be set to the _run\_analysis.R_ location.
 
-When script is sources (source("\<filename\>")) it will automaticaly read data from the directory, process it and store second data set in file _data2.txt_
+When script is sources (source("\<filename\>")) it will automatically read data from the directory, process it and store second data set in file _data2.txt_
 
 ##Functions
 Script _run\_analysis.R_ contains following functions. 
@@ -59,7 +59,7 @@ Script _run\_analysis.R_ contains following functions.
     Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##Files
-Cource project contains three files:
+Course project contains three files:
 *  ReadMe.md - these file
 *  CodeBook.md - code book for second tidy data set
 *  run_analysis.R - script for generating data
