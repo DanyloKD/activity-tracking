@@ -1,12 +1,27 @@
 #ReadMe
+##Task
+create one R script called run_analysis.R that does the following. 
 
+ 1. Merges the training and the test sets to create one data set.
+ 1. Extracts only the measurements on the mean and standard deviation for each measurement. 
+ 1. Uses descriptive activity names to name the activities in the data set
+ 1. Appropriately labels the data set with descriptive variable names. 
+ 1. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+
+##Description
 These repository contains solution for the cource project from Getting and Cleaning Data course. 
 
 Required dataset for these course is here:
 (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-##Script
-R script called run_analysis.R that does the following. 
+Archive should be extracted in the same folder where _run\_analysis.R_ script is situated.
+Working directory has to be set to the _run\_analysis.R_ location.
+
+When script is sources (source("\<filename\>")) it will automaticaly read data from the directory, process it and store second data set in file _data2.txt_
+
+##Functions
+Script _run\_analysis.R_ contains following functions. 
 
 * getDataDirectory - returns name of the directory where data is stored
 
