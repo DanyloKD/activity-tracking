@@ -1,13 +1,15 @@
 #Code book
+Dataset contains average of each variable for each activity and each subject. 
 
-subject: ID of the person who tooked part in study   
-activity: studied activity ID.
--   1 WALKING
--   2 WALKING_UPSTAIRS
--   3 WALKING_DOWNSTAIRS
--   4 SITTING
--   5 STANDING
--   6 LAYING
+Data set collumns:
+-  subject: ID of the person who tooked part in study   
+-  activity: activity code:
+    *   1 WALKING
+    *   2 WALKING_UPSTAIRS
+    *   3 WALKING_DOWNSTAIRS
+    *   4 SITTING
+    *   5 STANDING
+    *   6 LAYING
 
 Measurements come from the accelerometer and gyroscope 3-axial raw signals t\_acc:xyz and t\_gyro:xyz. These time domain signals have prefix 't' to denote time 
 The acceleration signal was then separated into body and gravity acceleration signals (t\_body\_acc:xyz and t\_gravity\_acc:xyz) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
